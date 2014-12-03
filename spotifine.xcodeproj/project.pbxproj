@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505AB1291A2F784900F10546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AB1281A2F784900F10546 /* main.m */; };
+		505AB12C1A2F784900F10546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AB12B1A2F784900F10546 /* AppDelegate.m */; };
+		505AB12F1A2F784900F10546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AB12E1A2F784900F10546 /* ViewController.m */; };
+		505AB1321A2F784900F10546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505AB1301A2F784900F10546 /* Main.storyboard */; };
+		505AB1341A2F784900F10546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505AB1331A2F784900F10546 /* Images.xcassets */; };
+		505AB1371A2F784900F10546 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505AB1351A2F784900F10546 /* LaunchScreen.xib */; };
+		505AB1431A2F784A00F10546 /* spotifineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AB1421A2F784A00F10546 /* spotifineTests.m */; };
+		505AB14D1A2F854C00F10546 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB14C1A2F854C00F10546 /* Spotify.framework */; };
+		505AB1501A2F85D400F10546 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB14F1A2F85D400F10546 /* SpeechKit.framework */; };
+		505AB1581A2F8A3200F10546 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1521A2F8A3200F10546 /* libTestFlight.a */; };
+		505AB1591A2F8A3200F10546 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 505AB1531A2F8A3200F10546 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505AB13D1A2F784900F10546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505AB11B1A2F784900F10546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505AB1221A2F784900F10546;
+			remoteInfo = spotifine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		505AB1231A2F784900F10546 /* spotifine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505AB1271A2F784900F10546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505AB1281A2F784900F10546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		505AB12A1A2F784900F10546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		505AB12B1A2F784900F10546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		505AB12D1A2F784900F10546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		505AB12E1A2F784900F10546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		505AB1311A2F784900F10546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505AB1331A2F784900F10546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		505AB1361A2F784900F10546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		505AB13C1A2F784900F10546 /* spotifineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505AB1411A2F784900F10546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505AB1421A2F784A00F10546 /* spotifineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spotifineTests.m; sourceTree = "<group>"; };
+		505AB14C1A2F854C00F10546 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		505AB14F1A2F85D400F10546 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		505AB1521A2F8A3200F10546 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		505AB1531A2F8A3200F10546 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		505AB1551A2F8A3200F10546 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		505AB1561A2F8A3200F10546 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		505AB1571A2F8A3200F10546 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505AB1201A2F784900F10546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505AB1581A2F8A3200F10546 /* libTestFlight.a in Frameworks */,
+				505AB14D1A2F854C00F10546 /* Spotify.framework in Frameworks */,
+				505AB1501A2F85D400F10546 /* SpeechKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505AB1391A2F784900F10546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505AB11A1A2F784900F10546 = {
+			isa = PBXGroup;
+			children = (
+				505AB1251A2F784900F10546 /* spotifine */,
+				505AB13F1A2F784900F10546 /* spotifineTests */,
+				505AB1241A2F784900F10546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505AB1241A2F784900F10546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505AB1231A2F784900F10546 /* spotifine.app */,
+				505AB13C1A2F784900F10546 /* spotifineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505AB1251A2F784900F10546 /* spotifine */ = {
+			isa = PBXGroup;
+			children = (
+				505AB12A1A2F784900F10546 /* AppDelegate.h */,
+				505AB12B1A2F784900F10546 /* AppDelegate.m */,
+				505AB12D1A2F784900F10546 /* ViewController.h */,
+				505AB12E1A2F784900F10546 /* ViewController.m */,
+				505AB1301A2F784900F10546 /* Main.storyboard */,
+				505AB1331A2F784900F10546 /* Images.xcassets */,
+				505AB1351A2F784900F10546 /* LaunchScreen.xib */,
+				505AB1261A2F784900F10546 /* Supporting Files */,
+			);
+			path = spotifine;
+			sourceTree = "<group>";
+		};
+		505AB1261A2F784900F10546 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				505AB14E1A2F856700F10546 /* Frameworks */,
+				505AB1271A2F784900F10546 /* Info.plist */,
+				505AB1281A2F784900F10546 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		505AB13F1A2F784900F10546 /* spotifineTests */ = {
+			isa = PBXGroup;
+			children = (
+				505AB1421A2F784A00F10546 /* spotifineTests.m */,
+				505AB1401A2F784900F10546 /* Supporting Files */,
+			);
+			path = spotifineTests;
+			sourceTree = "<group>";
+		};
+		505AB1401A2F784900F10546 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				505AB1411A2F784900F10546 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		505AB14E1A2F856700F10546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				505AB1511A2F8A3200F10546 /* TestFlightSDK3.0.2 */,
+				505AB14F1A2F85D400F10546 /* SpeechKit.framework */,
+				505AB14C1A2F854C00F10546 /* Spotify.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		505AB1511A2F8A3200F10546 /* TestFlightSDK3.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				505AB1521A2F8A3200F10546 /* libTestFlight.a */,
+				505AB1531A2F8A3200F10546 /* README.md */,
+				505AB1551A2F8A3200F10546 /* TestFlight+AsyncLogging.h */,
+				505AB1561A2F8A3200F10546 /* TestFlight+ManualSessions.h */,
+				505AB1571A2F8A3200F10546 /* TestFlight.h */,
+			);
+			path = TestFlightSDK3.0.2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505AB1221A2F784900F10546 /* spotifine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505AB1461A2F784A00F10546 /* Build configuration list for PBXNativeTarget "spotifine" */;
+			buildPhases = (
+				505AB11F1A2F784900F10546 /* Sources */,
+				505AB1201A2F784900F10546 /* Frameworks */,
+				505AB1211A2F784900F10546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spotifine;
+			productName = spotifine;
+			productReference = 505AB1231A2F784900F10546 /* spotifine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505AB13B1A2F784900F10546 /* spotifineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505AB1491A2F784A00F10546 /* Build configuration list for PBXNativeTarget "spotifineTests" */;
+			buildPhases = (
+				505AB1381A2F784900F10546 /* Sources */,
+				505AB1391A2F784900F10546 /* Frameworks */,
+				505AB13A1A2F784900F10546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505AB13E1A2F784900F10546 /* PBXTargetDependency */,
+			);
+			name = spotifineTests;
+			productName = spotifineTests;
+			productReference = 505AB13C1A2F784900F10546 /* spotifineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505AB11B1A2F784900F10546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Onur Baykal";
+				TargetAttributes = {
+					505AB1221A2F784900F10546 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = VRWD875XKR;
+					};
+					505AB13B1A2F784900F10546 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 505AB1221A2F784900F10546;
+					};
+				};
+			};
+			buildConfigurationList = 505AB11E1A2F784900F10546 /* Build configuration list for PBXProject "spotifine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505AB11A1A2F784900F10546;
+			productRefGroup = 505AB1241A2F784900F10546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505AB1221A2F784900F10546 /* spotifine */,
+				505AB13B1A2F784900F10546 /* spotifineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505AB1211A2F784900F10546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505AB1321A2F784900F10546 /* Main.storyboard in Resources */,
+				505AB1371A2F784900F10546 /* LaunchScreen.xib in Resources */,
+				505AB1341A2F784900F10546 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505AB13A1A2F784900F10546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505AB11F1A2F784900F10546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505AB12F1A2F784900F10546 /* ViewController.m in Sources */,
+				505AB12C1A2F784900F10546 /* AppDelegate.m in Sources */,
+				505AB1591A2F8A3200F10546 /* README.md in Sources */,
+				505AB1291A2F784900F10546 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505AB1381A2F784900F10546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505AB1431A2F784A00F10546 /* spotifineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505AB13E1A2F784900F10546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505AB1221A2F784900F10546 /* spotifine */;
+			targetProxy = 505AB13D1A2F784900F10546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		505AB1301A2F784900F10546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505AB1311A2F784900F10546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		505AB1351A2F784900F10546 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505AB1361A2F784900F10546 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505AB1441A2F784A00F10546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505AB1451A2F784A00F10546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505AB1471A2F784A00F10546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = spotifine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		505AB1481A2F784A00F10546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = spotifine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		505AB14A1A2F784A00F10546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spotifineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotifine.app/spotifine";
+			};
+			name = Debug;
+		};
+		505AB14B1A2F784A00F10546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = spotifineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotifine.app/spotifine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505AB11E1A2F784900F10546 /* Build configuration list for PBXProject "spotifine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505AB1441A2F784A00F10546 /* Debug */,
+				505AB1451A2F784A00F10546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505AB1461A2F784A00F10546 /* Build configuration list for PBXNativeTarget "spotifine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505AB1471A2F784A00F10546 /* Debug */,
+				505AB1481A2F784A00F10546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505AB1491A2F784A00F10546 /* Build configuration list for PBXNativeTarget "spotifineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505AB14A1A2F784A00F10546 /* Debug */,
+				505AB14B1A2F784A00F10546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505AB11B1A2F784900F10546 /* Project object */;
+}
