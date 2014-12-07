@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>52B90F22-EFB0-40F6-8798-C6BF15140CFB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>spotifine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>74FED407BA07D91D1154FFB5485D5C64E459501A</key>
+		<string>https://github.com/theaob/spotifine.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>spotifine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>74FED407BA07D91D1154FFB5485D5C64E459501A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/theaob/spotifine.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74FED407BA07D91D1154FFB5485D5C64E459501A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74FED407BA07D91D1154FFB5485D5C64E459501A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>spotifine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

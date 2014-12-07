@@ -17,7 +17,16 @@
 		505AB14D1A2F854C00F10546 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB14C1A2F854C00F10546 /* Spotify.framework */; };
 		505AB1501A2F85D400F10546 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB14F1A2F85D400F10546 /* SpeechKit.framework */; };
 		505AB1581A2F8A3200F10546 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1521A2F8A3200F10546 /* libTestFlight.a */; };
-		505AB1591A2F8A3200F10546 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 505AB1531A2F8A3200F10546 /* README.md */; };
+		505AB15C1A2FA02F00F10546 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB15B1A2FA02F00F10546 /* AVFoundation.framework */; };
+		505AB15E1A2FA03C00F10546 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB15D1A2FA03C00F10546 /* AudioToolbox.framework */; };
+		505AB1601A2FA04100F10546 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB15F1A2FA04100F10546 /* CFNetwork.framework */; };
+		505AB1621A2FA05E00F10546 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1611A2FA05E00F10546 /* CoreGraphics.framework */; };
+		505AB1641A2FA06400F10546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1631A2FA06400F10546 /* Foundation.framework */; };
+		505AB1661A2FA06A00F10546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1651A2FA06A00F10546 /* UIKit.framework */; };
+		505AB1681A2FA07300F10546 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1671A2FA07300F10546 /* SystemConfiguration.framework */; };
+		505AB16A1A2FA07900F10546 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AB1691A2FA07900F10546 /* Security.framework */; };
+		507AC76F1A34CE1800DC7E43 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 507AC76E1A34CE1800DC7E43 /* libz.dylib */; };
+		50DC27EA1A34D7D5001D405C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC27E91A34D7D5001D405C /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +56,20 @@
 		505AB14C1A2F854C00F10546 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		505AB14F1A2F85D400F10546 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
 		505AB1521A2F8A3200F10546 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		505AB1531A2F8A3200F10546 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		505AB1551A2F8A3200F10546 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
 		505AB1561A2F8A3200F10546 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		505AB1571A2F8A3200F10546 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		505AB15B1A2FA02F00F10546 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		505AB15D1A2FA03C00F10546 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		505AB15F1A2FA04100F10546 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		505AB1611A2FA05E00F10546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		505AB1631A2FA06400F10546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		505AB1651A2FA06A00F10546 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		505AB1671A2FA07300F10546 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		505AB1691A2FA07900F10546 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		507AC76E1A34CE1800DC7E43 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		50DC27E81A34D7D5001D405C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		50DC27E91A34D7D5001D405C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507AC76F1A34CE1800DC7E43 /* libz.dylib in Frameworks */,
+				505AB16A1A2FA07900F10546 /* Security.framework in Frameworks */,
+				505AB1681A2FA07300F10546 /* SystemConfiguration.framework in Frameworks */,
+				505AB1661A2FA06A00F10546 /* UIKit.framework in Frameworks */,
+				505AB1641A2FA06400F10546 /* Foundation.framework in Frameworks */,
+				505AB1621A2FA05E00F10546 /* CoreGraphics.framework in Frameworks */,
+				505AB1601A2FA04100F10546 /* CFNetwork.framework in Frameworks */,
+				505AB15E1A2FA03C00F10546 /* AudioToolbox.framework in Frameworks */,
+				505AB15C1A2FA02F00F10546 /* AVFoundation.framework in Frameworks */,
 				505AB1581A2F8A3200F10546 /* libTestFlight.a in Frameworks */,
 				505AB14D1A2F854C00F10546 /* Spotify.framework in Frameworks */,
 				505AB1501A2F85D400F10546 /* SpeechKit.framework in Frameworks */,
@@ -102,6 +130,8 @@
 				505AB1301A2F784900F10546 /* Main.storyboard */,
 				505AB1331A2F784900F10546 /* Images.xcassets */,
 				505AB1351A2F784900F10546 /* LaunchScreen.xib */,
+				50DC27E81A34D7D5001D405C /* LoginViewController.h */,
+				50DC27E91A34D7D5001D405C /* LoginViewController.m */,
 				505AB1261A2F784900F10546 /* Supporting Files */,
 			);
 			path = spotifine;
@@ -137,6 +167,15 @@
 		505AB14E1A2F856700F10546 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				507AC76E1A34CE1800DC7E43 /* libz.dylib */,
+				505AB15D1A2FA03C00F10546 /* AudioToolbox.framework */,
+				505AB1671A2FA07300F10546 /* SystemConfiguration.framework */,
+				505AB1611A2FA05E00F10546 /* CoreGraphics.framework */,
+				505AB15F1A2FA04100F10546 /* CFNetwork.framework */,
+				505AB1691A2FA07900F10546 /* Security.framework */,
+				505AB1631A2FA06400F10546 /* Foundation.framework */,
+				505AB1651A2FA06A00F10546 /* UIKit.framework */,
+				505AB15B1A2FA02F00F10546 /* AVFoundation.framework */,
 				505AB1511A2F8A3200F10546 /* TestFlightSDK3.0.2 */,
 				505AB14F1A2F85D400F10546 /* SpeechKit.framework */,
 				505AB14C1A2F854C00F10546 /* Spotify.framework */,
@@ -149,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				505AB1521A2F8A3200F10546 /* libTestFlight.a */,
-				505AB1531A2F8A3200F10546 /* README.md */,
 				505AB1551A2F8A3200F10546 /* TestFlight+AsyncLogging.h */,
 				505AB1561A2F8A3200F10546 /* TestFlight+ManualSessions.h */,
 				505AB1571A2F8A3200F10546 /* TestFlight.h */,
@@ -258,9 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50DC27EA1A34D7D5001D405C /* LoginViewController.m in Sources */,
 				505AB12F1A2F784900F10546 /* ViewController.m in Sources */,
 				505AB12C1A2F784900F10546 /* AppDelegate.m in Sources */,
-				505AB1591A2F8A3200F10546 /* README.md in Sources */,
 				505AB1291A2F784900F10546 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +435,8 @@
 					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -416,6 +456,8 @@
 					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Release;
 		};
@@ -472,6 +514,7 @@
 				505AB1481A2F784A00F10546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		505AB1491A2F784A00F10546 /* Build configuration list for PBXNativeTarget "spotifineTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +523,7 @@
 				505AB14B1A2F784A00F10546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
