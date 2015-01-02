@@ -28,38 +28,9 @@ const unsigned char SpeechKitApplicationKey[] = {0xa3, 0x99, 0xa7, 0x0f, 0x59, 0
                     useSSL:NO
                   delegate:nil];
     
+    
+    
    
-}
-- (IBAction)recordButtonPressed:(id)sender
-{
-    if(self.m_Recognizer)
-    {
-        self.m_Recognizer = nil;
-    }
-    
-    self.m_Recognizer = [[SKRecognizer alloc] initWithType:SKDictationRecognizerType
-                                                 detection:SKShortEndOfSpeechDetection
-                                                  language:@"eng-USA" delegate:self];
-}
-
-- (void)recognizer:(SKRecognizer *)recognizer didFinishWithResults:(SKRecognition *)results
-{
-    NSArray * aResults = [results results];
-    
-    for (int i = 0; i < [aResults count]; i++)
-    {
-        NSLog(@"Result %i %@", i, [aResults objectAtIndex:i]);
-    }
-}
-
-- (void)recognizer:(SKRecognizer *)recognizer didFinishWithError:(NSError *)error suggestion:(NSString *)suggestion
-{
-    NSLog(@"Error: %@ Suggestion: %@", [error description], suggestion);
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

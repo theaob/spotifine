@@ -10,13 +10,9 @@
 #import <SpeechKit/SpeechKit.h>
 #import <Spotify/Spotify.h>
 
-@interface ViewController : UIViewController <SpeechKitDelegate, SKRecognizerDelegate, SPTAudioStreamingPlaybackDelegate>
+@interface ViewController : UIViewController
 
-
-@property SKRecognizer * m_Recognizer;
-
-@property (nonatomic, strong) SPTSession *session;
-@property (nonatomic, strong) SPTAudioStreamingController *player;
+@property (nonatomic, strong) SPTSession * m_SpotifySession;
 
 @end
 

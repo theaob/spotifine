@@ -8,13 +8,26 @@
 
 #import "AppDelegate.h"
 #import "TestFlight.h"
+#import <Spotify/Spotify.h>
 
-@interface AppDelegate ()
-
-@end
+static NSString * const kClientId = @"4af8c72e86a44d56a7d0949a24bc1fea";
+static NSString * const kCallbackURL = @"spotifine://";
+static NSString * const kTokenSwapServiceURL = @"";
 
 @implementation AppDelegate
 
+
+- (IBAction)loginButton
+{
+    NSURL * loginURL = [[SPTAuth defaultInstance] loginURLForClientId:kClientId
+                                                  declaredRedirectURL:[NSURL URLWithString:kCallbackURL]
+                                                               scopes:@[SPTAuthPlaylistReadPrivateScope, SPTAuthStreamingScope, SPTAuthUserLibraryReadScope, SPTAuthUserReadPrivateScope]];
+    
+    [[UIApplication sharedApplication] openURL:loginURL];
+}
+
+
+#pragma mark Application Functions
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -42,6 +55,16 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL) application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    SPTAuthCallback authCallback = ^(NSError * error, SPTSession * session)
+    {
+        
+    };
+    
+    return NO;
 }
 
 @end
